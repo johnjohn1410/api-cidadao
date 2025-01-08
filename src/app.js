@@ -47,3 +47,5 @@ app.delete("/cidadaos/:nome", (req, res) => {
 })
 
 export default app
+
+// mongodb+srv://<db_username>:<db_password>@cluster0.uk4ul.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
