@@ -23,7 +23,7 @@ class CidadaoController {
     static async atualizarCidadao(req, res) {
         try {
             const cpf = req.params.cpf;
-            await cidadao.findOneAndUpdate({"documentos.CPF.numero":cpf}, req.body)
+            await cidadao.findOneAndReplace({"documentos.CPF.numero":cpf}, req.body, {new: true, runValidators: true })
             res.status(200).json("Cidadão atualizado")
         } catch (error) {
             res.status(500).json({message: `${error.message} falha na atualização do cidadão`})
