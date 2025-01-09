@@ -20,29 +20,24 @@
     },
     "documentos":{
         "CPF":{
-            "nome":"",
             "numero":"",
             "data_de_emissao":"",
             "expedidor":""
         },
         "RG": {
-            "nome":"",
             "numero":"",
             "data_de_emissao":"",
             "data_de_nascimento":"",
             "naturalidade":""
         },
         "CNH":{
-            "nome":"",
             "numero":"",
             "data_de_emissao":"",
             "nacionalidade":"",
             "categoria":["A","B","C","D","E"]
         },
         "Certidao_de_Nascimento": {
-            "nome":"",
             "numero":"",
-            "data_de_emissao":"",
             "Data": "",
             "Hora": "",
             "Naturalidade": "",
