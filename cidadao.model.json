@@ -1,0 +1,47 @@
+[
+    {
+        "nome": "",
+        "gênero": "",
+        "propriedades": {
+            "Tipo_de_bem": "",
+            "Estado": "",
+            "Valor": "",
+            "Legitimidade": ""
+        },
+        "contato": {
+            "email": "",
+            "telefone": "",
+            "endereco": {
+            "rua": "",
+            "logradouro": "",
+            "numero": "",
+            "bairro": "",
+            "CEP": ""
+            }
+        },
+        "documentos": {
+            "campos_comuns": {
+            "nome": "",
+            "numero": "",
+            "data_de_emissao": ""
+            },
+            "CPF": {
+            "expedidor": ""
+            },
+            "RG": {
+            "data_de_nascimento": "",
+            "naturalidade": ""
+            },
+            "CNH": {
+            "nacionalidade": "",
+            "categoria": ["A", "B", "C", "D", "E"]
+            },
+            "Certidao_de_Nascimento": {
+            "Data": "",
+            "Hora": "",
+            "Naturalidade": "",
+            "sexo": ["F", "M"]
+            }
+        }
+    }
+]
